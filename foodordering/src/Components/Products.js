@@ -1,0 +1,58 @@
+export const Products = [
+  {
+    id: 1,
+    img: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&q=80&w=1780&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    genre: "Burger",
+    title: "Double Cheese Burger",
+    price: 10.89,
+  },
+  {
+    id: 2,
+    img: "https://images.unsplash.com/photo-1681976286661-89ef53c7e484?auto=format&fit=crop&q=80&w=1902&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    genre: "Soft Drinks",
+    title: "Lime Soda",
+    price: 5.09,
+  },
+  {
+    id: 3,
+    img: "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    genre: "Pizza",
+    title: "Mushroom Cheese Pizza",
+    price: 22.54,
+  },
+  {
+    id: 4,
+    img: "https://images.unsplash.com/photo-1585238342107-49a3cdace47f?auto=format&fit=crop&q=80&w=1967&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    genre: "Wraps",
+    title: "Mix Veg Wrap",
+    price: 10,
+  },
+  {
+    id: 5,
+    img: "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&q=80&w=1937&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    genre: "Coffee",
+    title: "Cappuccino",
+    price: 5,
+  },
+  {
+    id: 6,
+    img: "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    genre: "Shakes",
+    title: "Chocolate-shake",
+    price: 15,
+  },
+  {
+    id: 7,
+    img: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    genre: "Fries",
+    title: "French-fries",
+    price: 30,
+  },
+  {
+    id: 8,
+    img: "https://images.unsplash.com/photo-1497534446932-c925b458314e?auto=format&fit=crop&q=80&w=1972&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    genre: "Juices",
+    title: "Juice",
+    price: 50,
+  },
+];

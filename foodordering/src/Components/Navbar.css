@@ -1,0 +1,23 @@
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+
+.navbar-brand{
+    font-size: 1.8rem;
+    text-decoration: underline;
+}
+
+.nav-link{
+    transition: 0.5s all ease-in-out;
+}
+
+.nav-link:hover{
+    /* transform: scale(110%); */
+    text-decoration: underline;
+    opacity: 0.8;
+}
