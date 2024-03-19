@@ -42,9 +42,9 @@ function App() {
 
   // search function----------------------
 
-  function searchItems(genre) {
+  function searchItems(search) {
     const filtertedProducts = Products.filter((item) =>
-      item.genre.toLowerCase().includes(genre.toLowerCase())
+      item.genre.toLowerCase().includes(search.toLowerCase())
     );
     const newitems = filtertedProducts;
 
@@ -69,7 +69,7 @@ function App() {
       <div className="flex-column flex-row container-fluid">
         {cartItems.length > 0 ? (
           cartItems.map((item) => {
-            return (
+            return (  
               <>
                 <div className="card" style={{ width: "18rem" }} key={item.id}>
                   <img

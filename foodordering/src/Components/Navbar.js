@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Navbar.css";
 function Navbar(props) {
-  const [genre, setGenre] = useState("");
+  const [search, setSearch] = useState("");
 
   return (
     <>
@@ -77,15 +77,15 @@ function Navbar(props) {
                 className="form-control mx-3 w-50"
                 type="search"
                 placeholder="Search"
-                value={genre}
+                value={search}
                 aria-label="Search"
-                onChange={(e) => setGenre(e.target.value)}
+                onChange={(e) => setSearch(e.target.value)}
               />
               <button
                 className="btn btn-outline-warning"
                 onClick={() => {
-                  props.searchItems(genre);
-                  setGenre("");
+                  props.searchItems(search);
+                  setSearch("");
                 }}
               >
                 Search
